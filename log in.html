@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="style-2.css">
+        <script src="main-signup.js"></script>
+       
+        <title>Project 1-log-in</title>
+    </head>
+
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <ul class="navbar__menu">
+                <div class="outer-box">
+                    <div class="box" heigh="60px" width="100px" ></div>
+                    <li class="navbar_item"><a href="index.html" class="navbar__links" id="home-page">Home</a></li>
+                </div>
+                
+                <li class="navbar_item"><a href="account-page.html" class="navbar__links" id="Account">Account</a></li>
+                <li><a href="Menu.html" class="navbar__links" id="menu_page">Menu</a></li>
+            </ul>
+
+
+                <a href="index.html" id="navbar-logo"><img src="Artboard 1.png" id="logo"   alt=""></a>
+
+                
+            <ul class="navbar__menu">
+                <li><a href="Cart.html"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="65px" height="58px"></a></li>
+                <li class="navbar_item"><a href="about_us.html" class="navbar__links" id="About-page">About Us</a></li>
+                <li class="navbar_btn"><a href="sign-up.html" class="button" id="sign-up">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+    <br><br>
+       <!--my work-->
+
+        <div class="formwrapper"  id ="aform">
+            <span class = "closebtn">&times;</span>
+<p id="afront" > log in </p>
+
+<form class="log-in-form" onsubmit="signin(event)">
+<label for="username"><p class="front">Username</p></label> <br>
+<input  type="text" class="textinput" id="username" name="username" placeholder="Enter your username" required> <br>
+<p class="msg">Error Message</p>
+<label for="E-mail"><p class="front">E-mail</p></label> <br>
+<input type="email" class="textinput" id="E-mail" name="email" placeholder="Enter your e-mail" required> <br>
+<p class="msg">Error Message</p>
+<label for="password"><p class="front">Password</p></label> <br>
+<input type="password"class="textinput" id="password" name="password" placeholder="Enter Password" required> <br>
+<p class="msg">Error Message</p>
+<input class = "subbutton" type="submit" value="submit">
+
+<span>Don't have an account? <a class="forgot" href="sign-up.html">Sign Up</a></span>
+</form>
+
+
+        </div>
+
+
+    </body>
+
+</html>

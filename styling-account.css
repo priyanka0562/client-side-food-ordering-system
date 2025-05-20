@@ -1,0 +1,93 @@
+
+
+
+.account-container{
+    width:80%;
+    margin:auto;
+    padding: 40px;
+    background-color: rgb(245, 92, 92);
+    color: white;
+    border-radius: 20px;
+    transform: translateY(5%)
+}
+
+h1{
+    margin-bottom: 30px;
+}
+
+.table-down, .td-down, .tr-down{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+td, td {
+    padding:15px;
+}
+
+.table-up{
+    font-weight:600;
+    border-style: none;
+}
+.btns-container{
+    margin-top: 30px;
+    text-align: center;
+}
+.til{
+    margin-bottom: 10px;
+}
+/* 
+.clrs{
+    align-items: center;
+    width: 60px;
+    padding: 7px;
+    border: 0px;
+}
+
+#Default{
+    background-color: rgb(209, 51, 51);
+}
+
+#Default:hover{
+    background-color:rgb(180, 72, 72);
+}
+
+
+#sky{
+    background-color: rgb(36, 200, 206);
+}
+
+#sky:hover{
+    background-color:rgb(121, 238, 228);
+}
+
+
+#nature{
+    background-color: rgba(41, 207, 25, 0.966);
+}
+
+#nature:hover{
+    background-color:rgb(124, 238, 101);
+}
+
+
+#bright{
+    background-color: lightgray;
+}
+
+#bright:hover{
+    background-color:white;
+} */
+
+.top-p{
+    padding: 5px;
+}
+
+
+#change-it{
+    padding: 5px;
+}

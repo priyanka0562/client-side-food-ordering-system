@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styling-signup.css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <nav class="navbar">
+        <div class="navbar-container">
+
+            <ul class="navbar__menu">
+                <div class="outer-box">
+                    <div class="box" heigh="60px" width="100px" ></div>
+                    <li class="navbar_item"><a href="index.html" class="navbar__links" id="home-page">Home</a></li>
+                </div>
+                
+                <li class="navbar_item"><a href="account-page.html" class="navbar__links" id="Account">Account</a></li>
+                <li><a href="Menu.html" class="navbar__links" id="menu_page">Menu</a></li>
+            </ul>
+
+
+                <a href="index.html" id="navbar-logo"><img src="Artboard 1.png" id="logo"   alt=""></a>
+
+                
+            <ul class="navbar__menu">
+                <li><a href="Cart.html"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="65px" height="58px"></a></li>
+                <li class="navbar_item"><a href="about_us.html" class="navbar__links" id="About-page">About Us</a></li>
+                <li class="navbar_btn"><a href="sign-up.html" class="button" id="sign-up">Sign Up</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+        <br><br>
+
+    <div class="sign-up">
+
+        <div class="left" id="form">
+
+            <form onsubmit="signUp(event)">
+            
+                <h1>Sign Up</h1>
+
+                <input type="text" placeholder="Your Username" id="username" name="username"> 
+                <input type="email" placeholder="Your E-Mail" id="email" name="email"> 
+                <input type="password" placeholder="Your Password" id="pass1" name="pass1"> 
+                <input type="password" placeholder="Re-type Password" id="pass2" name="pass2">
+
+                <button type="submit" id="sib">Sign Me Up</button>
+                
+                <p class="already">Already have an account? <a href="log in.html">Login</a></p>
+
+            </form>
+
+        </div>
+
+        <div class="right">
+
+            <span class="loginwith">Sign in with <br>social network</span>
+
+            <button class="social-signin fb">Log in with Facebook</button>
+            <button class="social-signin tw">Log in with Twitter</button>
+            <button class="social-signin go">Log in with Google+</button>
+
+        </div>
+
+        <div class="or">OR</div>
+
+    </div>
+
+    <footer class="footer">
+        <div class="contact-icons">
+            <div class="logos"><a href="#fb"><img src="Facebook logo 2.png" class="logo" id="facebook" alt=""></a> <br></div>
+            <div class="logos"><a href="#twt"><img src="Twitter logo.png" class="logo" id="twitter" alt=""></a> <br></div>
+            <div class="logos"><a href="#insta"><img src="Instagram logo.png" class="logo" id="instagram" alt=""></a> <br></div>
+            <div class="logos"><a href="#yt"><img src="Youtube logo.png" class="logo" id="youtube" alt=""></a> <br></div>
+            <div class="logos"><a href="#ct"><img src="Contact logo.png" class="logo" id="contact" alt=""></a> <br></div>
+            
+        </div>
+
+    </footer>
+
+    <script src="main-signup.js"></script>
+</body>
+</html>

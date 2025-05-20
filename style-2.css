@@ -1,0 +1,150 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: 'Kumbh Sans', sans-serif;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("Background.jpg") no-repeat;
+   
+}
+/*my work */
+@font-face{
+    src:url("RoyalChicken-lz7D.ttf");
+    font-family:royal;}
+
+.formwrapper{
+border-radius:5px 20px ;
+    padding:25px;
+    width:420px; min-height:540px; max-height:670px;
+    box-shadow: 2px 2px 15px black;
+   
+    position:absolute;
+    top:160px;
+    right:430px;
+    background: linear-gradient(to right, #a73737, #7a2828);
+   
+   
+    color: black;
+}
+.log-in-form > a {
+    text-decoration:none;
+}
+input[type=text]{
+    box-shadow: 2px 2px 2px black;
+    border-radius: 3px;;
+}
+.log-in-form > .textinput{
+    display:relative;
+    padding-left: 0.5 rem;
+  
+    padding:5 rem;
+    height:90%;
+    width:100%;
+    font-size:20px;
+    border:none;
+    outline:none;
+box-shadow: 2px 2px 2px black;
+border-radius: 3px;
+}
+.log-in-form > label {
+    text-indent:30px;
+    text-shadow:2px 2px 0 black;
+    
+    height:20px;
+}
+.log-in-form > label :hover{
+    transition: all 0.2s ease-out;
+}
+.log-in-form{
+    position:absolute;
+   left:120px;
+   top:60px;
+  
+}
+#afront{
+  height:50px;
+    font-family:royal;
+    font-weight:20px;
+    font-size:100px;
+    text-shadow: 2px 2px 0 black;
+    position: relative;
+    top:-80px;
+    }
+.front{
+font-family:royal;
+font-weight:20px;
+font-size:60px;
+}
+
+
+
+.closebtn{
+    position:relative;
+    top:-20px;
+    right:-360px;
+    margin:0px;
+    font-size:1.5rem;
+}
+.closebtn:hover{
+    cursor:pointer;
+    color:#f9423D;
+    transition: 0.2s ease-out
+  
+}
+
+.subbutton {
+  position:relative;
+right:20px;
+  margin-top: 15px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /*font-family:royal;
+  font-size:20px;*/
+  margin-top:20px;
+  padding: 10px 20px;
+  width: 100%;
+  height: 100%;
+  border: 1px solid;
+  outline: none;
+  border-radius: 17px;
+  background: linear-gradient(to right, #a73737, #7a2828);
+    transition: all 0.9s ease;}
+.subbutton:hover{
+    background: linear-gradient(to right, #c55858, #ac3b3b);
+    transition: all 0.5s ease;
+    cursor:pointer;
+}
+.msg{
+    font-size:0.7 rem;
+    margin-top:10px;
+    margin-bottom:0px;
+    display:none;
+    
+}
+.atbottom{
+    text-indent:10px;
+   
+    font-family:royal;
+font-weight: 20px;
+font-size:60px;
+text-shadow:2px 2px 0 black;
+}
+.box{
+    position:relative;
+    left:160px;
+    bottom:33px;
+}
+.forgot{
+    position:relative;
+    bottom:-30px;
+    font-family:royal;
+    font-size:60px;
+    text-shadow: 2px 2px 0 black;
+    color:rgb(252, 166, 54);
+}
+/*my work*/

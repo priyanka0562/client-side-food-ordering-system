@@ -1,0 +1,12 @@
+#cart-container{
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow:  20px 20px 60px #5c5b5b,
+    -20px -20px 60px #ffffff;
+    border: 3px solid rgb(240, 60, 60)
+}
+
+.btn:hover{
+    background-color: blanchedalmond;
+}

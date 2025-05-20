@@ -1,0 +1,132 @@
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <script src="ind.js"></script>
+        <script src="main-signup.js"></script>
+        <script src="food.js"></script>
+        <title>Chick Out home-page</title>
+    </head>
+
+    <body>
+    <!--NAVBAR-->
+        <nav class="navbar">
+            <div class="navbar-container">
+    
+                <ul class="navbar__menu">
+                    <div class="outer-box">
+                        <div class="box" heigh="60px" width="100px" ></div>
+                        <li class="navbar_item"><a href="index.html" class="navbar__links" id="home-page">Home</a></li>
+                    </div>
+                    
+                    <li class="navbar_item"><a href="account-page.html" class="navbar__links" id="Account">Account</a></li>
+                    <li><a href="Menu.html" class="navbar__links" id="menu_page">Menu</a></li>
+                </ul>
+    
+    
+                    <a href="index.html" id="navbar-logo"><img src="Artboard 1.png" id="logo"   alt=""></a>
+    
+                    
+                <ul class="navbar__menu">
+                    <li><a href="Cart.html"class="navbar__links crt" id="#cart-page" alt=""><img src="cart 2.png" width="65px" height="58px"></a></li>
+                    <li class="navbar_item"><a href="about_us.html" class="navbar__links" id="About-page">About Us</a></li>
+                    <li class="navbar_btn"><a href="http://localhost:3000/" class="button" id="sign-up">Sign Up</a></li>
+                </ul>
+    
+            </div>
+        </nav>
+<!--NAVBAR END-->
+        <br><br><br><br><br><br><br><br>
+    <section class="section" >
+        <div class="article-title">Special Plates</div>
+        <article class="article">
+            <div class="ss-container">
+                <div class="btn-container"><button onclick="changeSlide(-1)" class="btn" id="btn1" >&#10094;</button></div>
+                <div class="images-container">
+                    <img src="images\p1.jpg" class="ig a"id="ig1" alt="">
+                    <img src="images\p2.jpg" class="ig" id="ig2" alt="">
+                    <img src="images\p3.jpg" class="ig" id="ig3" alt="">
+                    <img src="images\p4.jpg" class="ig" id="ig4" alt="">
+                </div>
+                <div class="btn-container"><button onclick="changeSlide(1)" class="btn" id="btn2">&#10095;</button></div>
+    
+            </div>
+        </article>
+        <div class="article-title">Top Products</div>
+        <!--TOP PRODUCTS Article-->
+        <article class="top-products article">
+            <div class="meal-holder">
+                <div class="food-img"><img src="Food pics\3.png" id="tp1" style="width:284px ; height:177px;"></div>
+                <div class="meal-name">Chicken Strips</div>
+                <div class="move">
+                    <a onclick="change('b3')" class="price al">100 L.E.</a><a onclick="change('b3')" class="order-now al">ORDER NOW</a>
+                </div>
+                
+            </div>
+            <div class="meal-holder">
+                <div class="food-img"><img src="Food pics\5.png" style="width:284px ; height:177px;"></div>
+                <div class="meal-name">Double Down</div>
+                <div class="move">
+                    <a onclick="change('b5')"  class="price al">300 L.E.</a><a onclick="change('b5')" class="order-now al">ORDER NOW</a>
+                </div>
+
+            </div>
+            <div class="meal-holder">
+                <div class="food-img"><img src="Food pics\10.png" style="width:284px ; height:177px;"></div>
+                <div class="meal-name">Nuggets</div>
+                <div class="move">
+                    <a onclick="change('b10')" class="price al">100 L.E.</a><a onclick="change('b10')" class="order-now al">ORDER NOW</a>
+                </div>
+
+            </div>
+            <div class="meal-holder">
+                <div class="food-img"><img src="Food pics\11.png" style="width:284px ; height:177px;"></div>
+                <div class="meal-name">Twister</div>
+                <div class="move">
+                    <a onclick="change('b12')" class="price al">100 L.E.</a><a onclick="change('b12')" class="order-now al">ORDER NOW</a>
+                </div>
+            </div>
+            
+        </article>
+
+        <div class="article-title">Categories</div>
+        <article class="categories article">
+            <div class="cat">
+                <div class="category-pic"><img src="chick-.svg" class="cat-img" width="44.6px" height="39px" alt=""></div>
+                <div class="category-name"><a href="#kids" class="cn">kids Meals</a></div>
+            </div>
+            <div class="cat">
+                <div class="category-pic"><img src="chick-.svg" class="cat-img" width="44.6px" height="39px" alt=""></div>
+                <div class="category-name"><a href="#kids" class="cn">kids Meals</a></div>
+            </div>
+            <div class="cat">
+                <div class="category-pic"><img src="chick-.svg" class="cat-img" width="44.6px" height="39px" alt=""></div>
+                <div class="category-name"><a href="#kids" class="cn">kids Meals</a></div>
+            </div>
+            <div class="cat">
+                <div class="category-pic"><img src="chick-.svg" class="cat-img" width="44.6px" height="39px" alt=""></div>
+                <div class="category-name"><a href="#kids" class="cn">kids Meals</a></div>
+            </div>
+
+
+        </article>
+
+        
+    </section>
+
+    <footer class="footer">
+        <div class="contact-icons">
+            <div class="logos"><a href="#fb"><img src="Facebook logo 2.png" class="logo" id="facebook" alt=""></a> <br></div>
+            <div class="logos"><a href="#twt"><img src="Twitter logo.png" class="logo" id="twitter" alt=""></a> <br></div>
+            <div class="logos"><a href="#insta"><img src="Instagram logo.png" class="logo" id="instagram" alt=""></a> <br></div>
+            <div class="logos"><a href="#yt"><img src="Youtube logo.png" class="logo" id="youtube" alt=""></a> <br></div>
+            <div class="logos"><a href="#ct"><img src="Contact logo.png" class="logo" id="contact" alt=""></a> <br></div>
+            
+        </div>
+
+    </footer>
+
+    </body>
+
+</html>
